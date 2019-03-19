@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_13_192937) do
+ActiveRecord::Schema.define(version: 2019_03_19_202917) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,10 +23,10 @@ ActiveRecord::Schema.define(version: 2019_03_13_192937) do
     t.string "budget"
     t.string "annual_income"
     t.string "area_of_interest"
-    t.boolean "financing"
+    t.text "financing"
     t.datetime "moving_date"
     t.string "net_assets"
-    t.string "type"
+    t.string "apt_type"
     t.string "size"
     t.boolean "offer"
     t.boolean "contract"

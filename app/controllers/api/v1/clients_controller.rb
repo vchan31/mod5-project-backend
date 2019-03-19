@@ -40,7 +40,19 @@ def client_params
 params.require(:client).permit(:name,
  :email,
  :number, 
- :user_id)
+ :user_id,
+ :days_searching,
+ :budget,
+ :annual_income,
+ :area_of_interest,
+ :financing,
+ :moving_date,
+ :net_assets,
+ :apt_type,
+ :size,
+ :offer,
+ :contract
+ )
 
 end
 
