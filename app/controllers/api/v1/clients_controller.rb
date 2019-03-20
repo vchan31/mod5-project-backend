@@ -50,8 +50,9 @@ params.require(:client).permit(:name,
  :net_assets,
  :apt_type,
  :size,
- :offer,
- :contract
+ :accepted_offer,
+ :contract,
+ :status
  )
 
 end
