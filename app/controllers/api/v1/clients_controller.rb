@@ -29,7 +29,7 @@ end
 
 def destroy
     @client = Client.find(params[:id])
-    @Client.destroy
+    @client.destroy
     render json: {message: "Client record deleted."}, status: :ok
 end
 
